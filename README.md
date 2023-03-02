@@ -18,28 +18,22 @@ public static void main(String[] args) throws InterruptedException {
 
 	server.addListener(new Listener() {
 		@Override
-		public void timeout(Connection connection) {
-		}
+		public void timeout(Connection connection) {}
 
 		@Override
-		public void reset(Connection connection) {
-		}
+		public void reset(Connection connection) {}
 
 		@Override
-		public void recieved(Connection connection, Packet packet) {
-		}
+		public void recieved(Connection connection, Packet packet) {}
 
 		@Override
-		public void postConnect(Connection connection) {
-		}
+		public void postConnect(Connection connection) {}
 
 		@Override
-		public void disconnected(Connection connection) {
-		}
+		public void disconnected(Connection connection) {}
 
 		@Override
-		public void connected(Connection connection) {
-		}
+		public void connected(Connection connection) {}
 	});
 
 	server.setConfig(config);
